@@ -13,7 +13,7 @@
 				$mOpen = $('#' + options['id-btn']),
 				$mClose = $('.menu-overlay--close');
 			
-			$mClose = $mOverlayWrap.append('<div class="menu-overlay--close">' + options['html-close'] +'</div>');
+			$mOverlayWrap.append('<div class="menu-overlay--close">' + options['html-close'] +'</div>');
 			$mOverlayWrap.addClass(options['origin']);
 			options['background'] ? $mOverlayWrap.css('background', options['background']) : '';
 
