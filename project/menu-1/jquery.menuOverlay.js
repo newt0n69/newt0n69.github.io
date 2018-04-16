@@ -11,9 +11,10 @@
 			let $mOverlay = $(this).parents('.menu-overlay'),
 				$mOverlayWrap = $mOverlay.find('.menu-overlay--wrap'),
 				$mOpen = $('#' + options['id-btn']),
-				$mClose = $('.menu-overlay--close');
-			
+				$mClose;
+				
 			$mOverlayWrap.append('<div class="menu-overlay--close">' + options['html-close'] +'</div>');
+			$mClose = $('.menu-overlay--close');
 			$mOverlayWrap.addClass(options['origin']);
 			options['background'] ? $mOverlayWrap.css('background', options['background']) : '';
 
