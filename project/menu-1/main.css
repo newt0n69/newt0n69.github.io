@@ -1,0 +1,23 @@
+.wrap {
+  height: 100%;
+  display: table;
+  width: 100%; }
+
+.content-body {
+  display: table-cell;
+  height: 100%;
+  width: 100%;
+  vertical-align: middle;
+  text-align: center; }
+
+#click-me {
+  font-size: 48px;
+  cursor: pointer; }
+
+.menu-overlay--close {
+  font-size: 40px; }
+
+.menu-overlay {
+  font-size: 24px; }
+
+/*# sourceMappingURL=main.css.map */
